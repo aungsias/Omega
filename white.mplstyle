@@ -1,0 +1,56 @@
+# Set background color
+axes.facecolor: FFFFFF
+figure.facecolor: FFFFFF
+figure.figsize: 8, 5
+
+# Set grid
+axes.grid: True
+axes.axisbelow: True
+grid.alpha: 1  # Making the grid slightly transparent
+grid.color: C0C0C0
+grid.linewidth: 1.1
+
+# Set spines
+axes.spines.left: True
+axes.spines.bottom: True
+
+# Set ticks
+xtick.bottom: False
+ytick.left: False
+xtick.direction: out
+ytick.direction: out
+xtick.color: 000000
+ytick.color: 000000
+xtick.major.size: 5
+ytick.major.size: 5
+xtick.major.width: 1.0
+ytick.major.width: 1.0
+xtick.minor.size: 0
+ytick.minor.size: 0
+
+# Set legend frame
+legend.frameon: False
+legend.framealpha: 0.8
+
+# Set font
+font.family: , sans-serif
+text.color: 000000
+
+# Set line style
+lines.linewidth: 1.0
+
+# Set axis label properties
+axes.labelsize: 12  # Slightly larger labels
+axes.labelweight: normal
+axes.labelcolor: 000000
+
+# Set tick label properties
+xtick.labelsize: 10  # Slightly larger tick labels
+ytick.labelsize: 10  # Slightly larger tick labels
+
+# Set axis line properties
+axes.linewidth: 1.0
+axes.edgecolor: 000000
+
+# Set color cycle (mirrors Seaborn default colors)
+axes.prop_cycle: cycler('color', ['C44E52', '55A868', '4C72B0', '8172B2', 'CCB974', '64B5CD'])
